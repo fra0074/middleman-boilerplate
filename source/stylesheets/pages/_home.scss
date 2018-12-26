@@ -1,0 +1,41 @@
+body, html {
+  height: 100%;
+}
+
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  background-color: red;
+  justify-content: space-evenly;
+  // padding-bottom: 100px;
+  flex-wrap: wrap;
+}
+
+.left-header{
+  background-color:white;
+  align-self: flex-start;
+
+}
+
+.right-header{
+  background-color: yellow;
+  align-self: flex-start;
+
+}
+
+.margin-top-header {
+   margin-top: 10vh;
+
+}
+
+header {
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+  // border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
+
+
+
